@@ -1,0 +1,15 @@
+.jumbotron {
+
+  background-image: url("img/bg-light.jpg");
+  box-shadow: 0 0 25px #aaaaaa;
+  h1 {
+    padding: ($spacer * 16) 0 ($spacer * 12) 0;
+    color: $font-color;
+    text-shadow: 0 0 2px #888888;
+    #r,
+    #q {
+      color: $secondary-font-color;
+      position: relative;
+    }
+  }
+}

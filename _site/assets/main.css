@@ -6643,7 +6643,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .navbar {
   background-color: white;
-  padding: 20px; }
+  padding: 20px;
+  box-shadow: 10px 0px 5px #888888; }
   .navbar .nav-link {
     color: #383838;
     opacity: 0.7;
@@ -6659,9 +6660,24 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     .navbar .navbar-brand #rq {
       color: #383838; }
 
-.jumbotron h1 {
-  padding: 16rem 0 12rem 0;
+.jumbotron {
+  background-image: url("img/bg-light.jpg");
+  box-shadow: 0 0 25px #aaaaaa; }
+  .jumbotron h1 {
+    padding: 16rem 0 12rem 0;
+    color: orange;
+    text-shadow: 0 0 2px #888888; }
+    .jumbotron h1 #r,
+    .jumbotron h1 #q {
+      color: #383838;
+      position: relative; }
+
+body {
+  background-color: #fcfcfc;
+  background-image: url("img/bg-light2.jpg");
+  font-family: 'Unica One', cursive;
+  font-size: 1.5em;
   color: orange; }
-  .jumbotron h1 #r, .jumbotron h1 #q {
-    color: #383838;
-    position: relative; }
+
+.page {
+  height: 600px; }
