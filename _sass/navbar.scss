@@ -1,11 +1,10 @@
 .navbar {
   background-color: white;
-  padding: 20px;
   box-shadow: 10px 0px 5px #888888;
   .nav-link {
     color: $secondary-font-color;
     opacity: 0.7;
-    font-size: 30px;
+    font-size: $font-size-base *1.2;
     &:hover {
       opacity: 1;
       ;
@@ -16,7 +15,7 @@
   }
   .navbar-brand {
     color: $font-color;
-    font-size: $font-size-base*3;
+    font-size: $font-size-base*2;
     font-weight: $font-weight-bold;
     #rq {
       color: $secondary-font-color;

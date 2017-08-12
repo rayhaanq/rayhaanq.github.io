@@ -962,6 +962,9 @@
 
 @import "../node_modules/bootstrap/scss/variables";
 
+
+$border-radius:0;
+
 // Colours
 
 //$primary-color:#eceeef;
@@ -972,7 +975,7 @@ $secondary-font-color:#383838;
 
 // Fonts
 
-$font-family-custom: 'Unica One', cursive;
+$font-family-custom: 'Slabo 27px', serif;
 
 $font-family-base: $font-family-custom;
 
@@ -981,4 +984,4 @@ $font-family-base: $font-family-custom;
 
 $navbar-border-radius:              $border-radius !default;
 $navbar-padding-x:                  $spacer !default;
-$navbar-padding-y:                  ($spacer * 2);
+$navbar-padding-y:                  ($spacer * 1.2);

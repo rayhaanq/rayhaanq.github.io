@@ -278,7 +278,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
-  font-family: "Unica One", cursive;
+  font-family: "Slabo 27px", serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -575,7 +575,7 @@ code {
   font-size: 90%;
   color: #bd4147;
   background-color: #f7f7f9;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   a > code {
     padding: 0;
     color: inherit;
@@ -2297,7 +2297,7 @@ tbody.collapse.show {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem; }
+  border-radius: 0; }
 
 .dropdown-divider {
   height: 1px;
@@ -2801,7 +2801,7 @@ tbody.collapse.show {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem; }
+  padding: 1.2rem 1rem; }
 
 .navbar-brand {
   display: inline-block;
@@ -3250,7 +3250,7 @@ tbody.collapse.show {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #eceeef;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   .breadcrumb::after {
     display: block;
     content: "";
@@ -3275,15 +3275,15 @@ tbody.collapse.show {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
 
 .page-item:first-child .page-link {
   margin-left: 0;
-  border-bottom-left-radius: 0.25rem;
-  border-top-left-radius: 0.25rem; }
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
 .page-item:last-child .page-link {
-  border-bottom-right-radius: 0.25rem;
-  border-top-right-radius: 0.25rem; }
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
 .page-item.active .page-link {
   z-index: 2;
   color: #fff;
@@ -3341,7 +3341,7 @@ tbody.collapse.show {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   .badge:empty {
     display: none; }
 
@@ -3799,7 +3799,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Unica One", cursive;
+  font-family: "Slabo 27px", serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3865,7 +3865,7 @@ button.close {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0.25rem; }
+  border-radius: 0; }
   .tooltip-inner::before {
     position: absolute;
     width: 0;
@@ -3881,7 +3881,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Unica One", cursive;
+  font-family: "Slabo 27px", serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4216,23 +4216,23 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   border-left: 0 !important; }
 
 .rounded {
-  border-radius: 0.25rem; }
+  border-radius: 0; }
 
 .rounded-top {
-  border-top-right-radius: 0.25rem;
-  border-top-left-radius: 0.25rem; }
+  border-top-right-radius: 0;
+  border-top-left-radius: 0; }
 
 .rounded-right {
-  border-bottom-right-radius: 0.25rem;
-  border-top-right-radius: 0.25rem; }
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem; }
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
 
 .rounded-left {
-  border-bottom-left-radius: 0.25rem;
-  border-top-left-radius: 0.25rem; }
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
 
 .rounded-circle {
   border-radius: 50%; }
@@ -6643,19 +6643,18 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .navbar {
   background-color: white;
-  padding: 20px;
   box-shadow: 10px 0px 5px #888888; }
   .navbar .nav-link {
     color: #383838;
     opacity: 0.7;
-    font-size: 30px; }
+    font-size: 1.2rem; }
     .navbar .nav-link:hover {
       opacity: 1; }
     .navbar .nav-link:active {
       color: black; }
   .navbar .navbar-brand {
     color: orange;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold; }
     .navbar .navbar-brand #rq {
       color: #383838; }
@@ -6672,12 +6671,61 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
       color: #383838;
       position: relative; }
 
+.form-control {
+  border-radius: 0;
+  font-family: "Slabo 27px", serif;
+  padding: 1rem 1rem; }
+
+.form-group {
+  margin-bottom: 3rem; }
+
+.social {
+  margin-bottom: 3rem; }
+
+.footer {
+  background-color: white; }
+  .footer #designedby {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+
 body {
   background-color: #fcfcfc;
   background-image: url("img/bg-light2.jpg");
-  font-family: 'Unica One', cursive;
+  font-family: 'Righteous', cursive;
   font-size: 1.5em;
   color: orange; }
+  body p {
+    font-family: 'Josefin Sans', sans-serif; }
+
+i {
+  color: #383838; }
+
+h1 {
+  color: #383838; }
+
+a {
+  color: orange; }
+  a:hover, a:focus {
+    color: orange;
+    text-decoration: none; }
+
+:target:before {
+  content: "";
+  display: block;
+  height: 170px;
+  /* fixed header height*/
+  margin: -90px 0 0;
+  /* negative fixed header height */ }
+
+.display-4 {
+  margin-bottom: 5rem; }
 
 .page {
-  height: 600px; }
+  margin: 6rem auto;
+  display: block; }
+
+.portImage {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }

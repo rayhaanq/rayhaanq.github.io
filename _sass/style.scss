@@ -2,17 +2,62 @@
 @import "bootstrap/scss/bootstrap";
 @import 
 "navbar",
-"jumbotron"
+"jumbotron",
+"contact",
+"footer"
 ;
 
 body {
   background-color:$primary-color;
   background-image: url("img/bg-light2.jpg");
-  font-family: 'Unica One', cursive;
+  //font-family: 'Saira Semi Condensed', sans-serif;
+font-family: 'Righteous', cursive;
+//font-family: 'Dosis', sans-serif;
+
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  //font-family: 'Slabo 27px', serif;
   font-size:1.5em;
   color:$font-color;
 }
 
-.page{
-  height:600px;
+i{
+  color:$secondary-font-color;
 }
+h1{
+  color:$secondary-font-color;
+}
+
+a{
+  color:$font-color;
+  
+  &:hover, &:focus{
+  color:$font-color;
+  text-decoration: none;  
+  }
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:170px; /* fixed header height*/
+  margin:-90px 0 0; /* negative fixed header height */
+}
+
+.display-4{
+  margin-bottom: $spacer*5;
+}
+
+.page{
+  
+  margin:$spacer*6 auto;
+  display: block;
+}
+
+.portImage{
+  margin-top:$spacer;
+  margin-bottom:$spacer;
+}
+
