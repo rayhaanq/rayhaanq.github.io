@@ -14,10 +14,10 @@ body {
 font-family: 'Righteous', cursive;
 //font-family: 'Dosis', sans-serif;
 //font-family: 'Slabo 27px', serif;
-  font-size:$font-size-base;
+  font-size:$font-size-base*1.3;
   color:$font-color;
   p{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $font-family-base;
     //font-family: 'Saira Semi Condensed', sans-serif;
     //font-family: 'Dosis', sans-serif;
 
@@ -45,16 +45,25 @@ strong{
   color:$secondary-font-color;
 }
 
-
+.display-3 {
+  font-size: 3.5rem;
+}
 
 .display-4{
-  margin-bottom: $spacer*5;
+  font-size: 2.5rem;
+  margin-bottom: $spacer*3;
+}
+
+.about-page{
+  padding-top:$spacer*0.5;
+  margin-top:-$spacer*2;
+  margin-bottom:$spacer*6;
+  display: block;
 }
 
 
-
 .page{
-  padding-top:$spacer*3;
+  padding-top:$spacer*2;
   margin-top:-$spacer*2;
   margin-bottom:$spacer*6;
   display: block;
