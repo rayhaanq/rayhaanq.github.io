@@ -2,6 +2,11 @@
   border-radius: 0;
   font-family: $font-family-base;
   padding:$spacer $spacer;
+  font-size:$font-size-base;
+
+  &:focus{
+     border-color: lighten($trim-color, 35%);
+  }
 }
 
 .form-group{

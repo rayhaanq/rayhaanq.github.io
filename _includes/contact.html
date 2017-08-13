@@ -1,21 +1,21 @@
-<div id="contact" class="container page">
-
+<span id="contact" class="page"></span>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <h1 class="text-center contact-header display-4">- Contact -</h1>
 
       <div class="row text-center social">
-        <div class="col-lg-6"><a target='_blank' href="https://github.com/rayhaanq"><i class="fa fa-github" aria-hidden="true"></i> Github</a></div>
-        <div class="col-lg-6"><a target='_blank' href="https://www.freecodecamp.com/rayhaanq"><i class="fa fa-free-code-camp" aria-hidden="true"></i>
+        <div class="offset-lg-2 col-lg-4"><a target='_blank' href="https://github.com/rayhaanq"><i class="fa fa-github" aria-hidden="true"></i> Github</a></div>
+        <div class="col-lg-4"><a target='_blank' href="https://www.freecodecamp.com/rayhaanq"><i class="fa fa-free-code-camp" aria-hidden="true"></i>
           FreeCodeCamp</a></div>
       </div>
 
-      <form id="contactForm">
+      <form id="contactForm" action="https://formspree.io/rayhaan.quazi@gmail.com" method="POST">
 
         <div class="form-group">
           <div class="row">
-              <label for="name" class="offset-lg-2 col-lg-2 col-form-label">Name: </label>
-            
+            <label for="name" class="offset-lg-2 col-lg-2 col-form-label">Name: </label>
+
             <div class="col-lg-6">
               <input type="text" class="form-control" id="name"></input>
             </div>
@@ -24,9 +24,8 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="offset-lg-2 col-lg-2">
-              <label for="email">Email: </label>
-            </div>
+            <label for="email" class="offset-lg-2 col-lg-2 col-form-label">Email: </label>
+
             <div class="col-lg-6">
               <input type="email" class="form-control" id="email"></input>
             </div>
@@ -35,14 +34,25 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="offset-lg-2 col-lg-2">
-              <label for="message">Message: </label>
-            </div>
+            <label for="message" class="offset-lg-2 col-lg-2 col-form-label">Message: </label>
+
             <div class="col-lg-6">
               <textarea class="form-control" rows="6" id="message"></textarea>
             </div>
           </div>
         </div>
+
+        <div class="form-group">
+          <div class="row text-right">
+            <div class="offset-lg-4 col-lg-6">
+              <button type="button" class="btn btn-primary">Reset</button>
+              <button type="submit" class="btn btn-primary">Send</button>
+
+            </div>
+
+          </div>
+        </div>
+
 
       </form>
 

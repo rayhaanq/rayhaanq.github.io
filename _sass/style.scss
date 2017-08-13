@@ -9,18 +9,20 @@
 
 body {
   background-color:$primary-color;
-  background-image: url("img/bg-light2.jpg");
+  background-image: url("img/shattered.jpg");
   //font-family: 'Saira Semi Condensed', sans-serif;
 font-family: 'Righteous', cursive;
 //font-family: 'Dosis', sans-serif;
-
+//font-family: 'Slabo 27px', serif;
+  font-size:$font-size-base;
+  color:$font-color;
   p{
     font-family: 'Josefin Sans', sans-serif;
+    //font-family: 'Saira Semi Condensed', sans-serif;
+    //font-family: 'Dosis', sans-serif;
 
   }
-  //font-family: 'Slabo 27px', serif;
-  font-size:1.5em;
-  color:$font-color;
+  
 }
 
 i{
@@ -39,20 +41,22 @@ a{
   }
 }
 
-:target:before {
-  content:"";
-  display:block;
-  height:170px; /* fixed header height*/
-  margin:-90px 0 0; /* negative fixed header height */
+strong{
+  color:$secondary-font-color;
 }
+
+
 
 .display-4{
   margin-bottom: $spacer*5;
 }
 
+
+
 .page{
-  
-  margin:$spacer*6 auto;
+  padding-top:$spacer*3;
+  margin-top:-$spacer*2;
+  margin-bottom:$spacer*6;
   display: block;
 }
 

@@ -1,11 +1,17 @@
 .jumbotron {
 
-  background-image: url("img/bg-light.jpg");
+  //background-image: url("img/bg-light.jpg");
+ background: -moz-linear-gradient(45deg, #ff5d00 0%, #FF8800 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ff5d00), color-stop(100%, #FF8800)); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, #ff5d00 0%, #FF8800 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, #ff5d00 0%, #FF8800 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, #ff5d00 0%, #FF8800 100%); /* ie10+ */
+background: linear-gradient(45deg, #ff5d00 0%, #FF8800 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8800', endColorstr='#ff5d00',GradientType=1 ); /* ie6-9 */
   box-shadow: 0 0 25px #aaaaaa;
   h1 {
     padding: ($spacer * 16) 0 ($spacer * 12) 0;
-    color: $font-color;
-    text-shadow: 0 0 2px #888888;
+    color: white;
     #r,
     #q {
       color: $secondary-font-color;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=" en ">
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,10 +25,10 @@
   
 </head>
 
-    
+
 <body>
-    
-    <div class="container-fluid">
+
+  <div class="container-fluid">
 
   <nav class="navbar navbar-light bg-faded fixed-top navbar-toggleable-md ">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,8 +56,7 @@
   </nav>
 
 </div>
-
-    <!-- <div class="container-fluid">
+  <!-- <div class="container-fluid">
   
   <div id="mainName" class="row">
     
@@ -71,21 +70,25 @@
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container-fluid">
-<h1 class="display-3 text-center"><span id="r">R</span>ayhaan <span id="q">Q</span>uazi</h1>
+<h1 class="display-3 text-center"><strong>&lt;R</strong>ayhaan <strong>Q</strong>uazi<strong>&sol;&gt;</strong></h1>
   </div>
 </div>
-
-    <div class="container page">
-  <div id="about" class="row">
+  <span id="about" class="page"></span>
+<div class="container">
+  <div class="row">
     
-    <div class="text-center offset-md-2 col-md-8">
+    <div class="text-center offset-md-1 col-md-10">
       
-      <p>Graduate Software Engineer with practical experience.</p>
+      <p><strong>Hopefully you've guessed by now</strong> but my name is Rayhaan Quazi and 
+        I am a Graduate Software Engineer. I have a passion for all things
+        creative and enjoy creating websites in my free time using a variety
+        of languages and frameworks. Check out some of the links
+        below to see what I’ve been up to lately.</p>
     </div>
   </div>
 </div>
-
-    <div class="container text-center page">
+  <span id="portfolio" class="page"></span>
+<div class="container text-center">
   <div id="portfolio" class="row">
     <div class="col-md-12">
       <h1 class="display-4">- Portfolio -</h1>
@@ -94,46 +97,45 @@
 
     <div id="portImageList" class="row">
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="http://placehold.it/300x300">
+        <img class="img-fluid" src="http://placehold.it/340x300">
       </div>
     </div>
 
   </div>
 </div>
-    
-    <div id="contact" class="container page">
-
+  <span id="contact" class="page"></span>
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <h1 class="text-center contact-header display-4">- Contact -</h1>
 
       <div class="row text-center social">
-        <div class="col-lg-6"><a target='_blank' href="https://github.com/rayhaanq"><i class="fa fa-github" aria-hidden="true"></i> Github</a></div>
-        <div class="col-lg-6"><a target='_blank' href="https://www.freecodecamp.com/rayhaanq"><i class="fa fa-free-code-camp" aria-hidden="true"></i>
+        <div class="offset-lg-2 col-lg-4"><a target='_blank' href="https://github.com/rayhaanq"><i class="fa fa-github" aria-hidden="true"></i> Github</a></div>
+        <div class="col-lg-4"><a target='_blank' href="https://www.freecodecamp.com/rayhaanq"><i class="fa fa-free-code-camp" aria-hidden="true"></i>
           FreeCodeCamp</a></div>
       </div>
 
-      <form id="contactForm">
+      <form id="contactForm" action="https://formspree.io/rayhaan.quazi@gmail.com" method="POST">
 
         <div class="form-group">
           <div class="row">
-              <label for="name" class="offset-lg-2 col-lg-2 col-form-label">Name: </label>
-            
+            <label for="name" class="offset-lg-2 col-lg-2 col-form-label">Name: </label>
+
             <div class="col-lg-6">
               <input type="text" class="form-control" id="name"></input>
             </div>
@@ -142,9 +144,8 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="offset-lg-2 col-lg-2">
-              <label for="email">Email: </label>
-            </div>
+            <label for="email" class="offset-lg-2 col-lg-2 col-form-label">Email: </label>
+
             <div class="col-lg-6">
               <input type="email" class="form-control" id="email"></input>
             </div>
@@ -153,14 +154,25 @@
 
         <div class="form-group">
           <div class="row">
-            <div class="offset-lg-2 col-lg-2">
-              <label for="message">Message: </label>
-            </div>
+            <label for="message" class="offset-lg-2 col-lg-2 col-form-label">Message: </label>
+
             <div class="col-lg-6">
               <textarea class="form-control" rows="6" id="message"></textarea>
             </div>
           </div>
         </div>
+
+        <div class="form-group">
+          <div class="row text-right">
+            <div class="offset-lg-4 col-lg-6">
+              <button type="button" class="btn btn-primary">Reset</button>
+              <button type="submit" class="btn btn-primary">Send</button>
+
+            </div>
+
+          </div>
+        </div>
+
 
       </form>
 
@@ -171,8 +183,7 @@
 
 
 </div>
-
-    <div class="container-fluid footer">
+  <div class="container-fluid footer">
   <div class="container text-right">  
   <p id="designedby"><small>Designed by Rayhaan Quazi</small></p>
   </div>
@@ -180,11 +191,12 @@
 
 
 
- 
-     <script src="/assets/zenscroll-min.js"></script>
- <script src="/assets/jquery-3.2.1.min.js"></script>
-	<script src="/assets/tether.min.js"></script>
+
+  <script src="/assets/zenscroll-min.js"></script>
+  <script src="/assets/jquery-3.2.1.min.js"></script>
+  <script src="/assets/tether.min.js"></script>
   <script src="/assets/bootstrap.min.js"></script>
-  </body>
+
+</body>
 
 </html>

@@ -485,7 +485,7 @@
 // $custom-control-focus-indicator-box-shadow: 0 0 0 1px $body-bg, 0 0 0 3px $brand-primary !default;
 
 // $custom-control-active-indicator-color:      $white !default;
-// $custom-control-active-indicator-bg:         lighten($brand-primary, 35%) !default;
+ //$custom-control-active-indicator-bg:         lighten($brand-primary, 35%) !default;
 // $custom-control-active-indicator-box-shadow: none !default;
 
 // $custom-checkbox-radius: $border-radius !default;
@@ -969,12 +969,15 @@ $border-radius:0;
 
 //$primary-color:#eceeef;
 $primary-color:#fcfcfc;
-$trim-color: black;
-$font-color: orange;
+$trim-color: #ff5d00;
+$font-color: #ff5d00;
 $secondary-font-color:#383838;
+
+$brand-primary: #ff5d00;
 
 // Fonts
 
+$font-size-base: 1.5rem;
 $font-family-custom: 'Slabo 27px', serif;
 
 $font-family-base: $font-family-custom;
@@ -985,3 +988,8 @@ $font-family-base: $font-family-custom;
 $navbar-border-radius:              $border-radius !default;
 $navbar-padding-x:                  $spacer !default;
 $navbar-padding-y:                  ($spacer * 1.2);
+
+//Buttons
+$btn-primary-color:              $white;
+$btn-primary-bg:                 $brand-primary;
+ $btn-primary-border:            $brand-primary;
