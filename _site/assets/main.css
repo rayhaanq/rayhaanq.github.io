@@ -279,7 +279,7 @@ html {
 
 body {
   font-family: "Slabo 27px", serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: #292b2c;
@@ -1697,7 +1697,7 @@ pre {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.25;
   color: #464a4c;
   background-color: #fff;
@@ -1752,7 +1752,7 @@ select.form-control:focus::-ms-value {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-bottom: 0;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .form-control-static {
   padding-top: 0.5rem;
@@ -1949,7 +1949,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   user-select: none;
   border: 1px solid transparent;
   padding: 0.5rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 0.25rem;
   transition: all 0.2s ease-in-out; }
   .btn:focus, .btn:hover {
@@ -2290,7 +2290,7 @@ tbody.collapse.show {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #292b2c;
   text-align: left;
   list-style: none;
@@ -2519,7 +2519,7 @@ tbody.collapse.show {
 .input-group-addon {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.25;
   color: #464a4c;
@@ -3966,7 +3966,7 @@ button.close {
 .popover-title {
   padding: 8px 14px;
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-right-radius: calc(0.3rem - 1px);
@@ -6647,14 +6647,14 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   .navbar .nav-link {
     color: #383838;
     opacity: 0.7;
-    font-size: 1.2rem; }
+    font-size: 0.8rem; }
     .navbar .nav-link:hover {
       opacity: 1; }
     .navbar .nav-link:active {
       color: #ff5d00; }
   .navbar .navbar-brand {
     color: #ff5d00;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold; }
     .navbar .navbar-brand #rq {
       color: #383838; }
@@ -6687,7 +6687,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   border-radius: 0;
   font-family: "Slabo 27px", serif;
   padding: 1rem 1rem;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
   .form-control:focus {
     border-color: #ffceb3; }
 
@@ -6709,7 +6709,7 @@ body {
   background-color: #fcfcfc;
   background-image: url("img/shattered.jpg");
   font-family: 'Righteous', cursive;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ff5d00; }
   body p {
     font-family: 'Josefin Sans', sans-serif; }
