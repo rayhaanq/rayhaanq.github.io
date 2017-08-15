@@ -46,6 +46,8 @@ strong{
   color:$secondary-font-color;
 }
 
+
+
 .display-3 {
   font-size: 3.5rem;
 }
@@ -55,16 +57,16 @@ strong{
   margin-bottom: $spacer*3;
 }
 
-.about-page{
-  padding-top:$spacer*0.5;
-  margin-top:-$spacer*2;
-  margin-bottom:$spacer*6;
-  display: block;
-}
+// .about-page{
+//   padding-top:$spacer*0.5;
+//   margin-top:-$spacer*2;
+//   margin-bottom:$spacer*6;
+//   display: block;
+// }
 
 
 .page{
-  padding-top:$spacer*2;
+  padding-top:$spacer*0.5;
   margin-top:-$spacer*2;
   margin-bottom:$spacer*6;
   display: block;
@@ -73,5 +75,11 @@ strong{
 .portImage{
   margin-top:$spacer;
   margin-bottom:$spacer;
+  width: 320px;
+  height:250px;
+}
+
+.img-fluid{
+  width: 320px;
 }
 

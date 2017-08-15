@@ -10,7 +10,7 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="/">
   <link rel="alternate" type="application/rss+xml" title="Rayhaan Quazi" href="/feed.xml">
 
   
@@ -92,22 +92,22 @@
 
     <div id="portImageList" class="row">
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="http://www.waymot.com" target="_blank"><img class="img-fluid" src="assets/img/waymot.jpg"></a>
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="https://codepen.io/rayhaanq/full/ZyorYo/" target="_blank"><img class="img-fluid" src="assets/img/quote.jpg"></a>
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="https://codepen.io/rayhaanq/full/qjKJaL/" target="_blank"><img class="img-fluid" src="assets/img/wiki.jpg"></a>
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="https://aqueous-island-58494.herokuapp.com/#/" target="_blank"><img class="img-fluid" src="assets/img/weather.jpg"></a>
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="https://murmuring-garden-27050.herokuapp.com/" target="_blank"><img class="img-fluid" src="assets/img/devmatch.jpg"></a>
       </div>
       <div class="col-lg-4 col-md-6 portImage">
-        <img class="img-fluid" src="https://placehold.it/340x300">
+        <a href="https://codepen.io/rayhaanq/full/BZVWBM/" target="_blank"><img class="img-fluid" src="assets/img/local.jpg"></a>
       </div>
     </div>
 
@@ -125,14 +125,20 @@
           FreeCodeCamp</a></div>
       </div>
 
-      <form id="contactForm" action="sendForm()" method="POST">
+      <div class="row text-center">
+        <div id="alert" style="display: none;" class="col-md-12 alert"></div>
+
+      </div>
+
+      <form id="contactForm" action="https://formspree.io/rayhaan.quazi@gmail.com" method="POST">
 
         <div class="form-group">
+          
           <div class="row">
             <label for="name" class="offset-lg-2 col-lg-2 col-form-label">Name: </label>
 
             <div class="col-lg-6">
-              <input type="text" class="form-control" id="name"></input>
+              <input type="text" name="name" class="form-control" id="nameField"></input>
             </div>
           </div>
         </div>
@@ -142,7 +148,7 @@
             <label for="email" class="offset-lg-2 col-lg-2 col-form-label">Email: </label>
 
             <div class="col-lg-6">
-              <input type="email" class="form-control" id="email"></input>
+              <input type="email" name="email" class="form-control" id="emailField"></input>
             </div>
           </div>
         </div>
@@ -152,7 +158,7 @@
             <label for="message" class="offset-lg-2 col-lg-2 col-form-label">Message: </label>
 
             <div class="col-lg-6">
-              <textarea class="form-control" rows="6" id="message"></textarea>
+              <textarea class="form-control" name="message" rows="6" id="messageField"></textarea>
             </div>
           </div>
         </div>
@@ -160,8 +166,8 @@
         <div class="form-group">
           <div class="row text-right">
             <div class="offset-lg-4 col-lg-6">
-              <button type="button" class="btn btn-primary">Reset</button>
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="button" onclick="resetForm()" class="btn btn-primary">Reset</button>
+              <button type="button" onclick="sendForm()" class="btn btn-primary">Send</button>
 
             </div>
 
